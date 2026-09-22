@@ -7,10 +7,22 @@ Anime = {"Frieren": "Kanehito Yamada",
          "Haikyuu": "Haruichi Furudate"
          }
 
-for x in range (1,11):
-    print (Anime.get ("Love Is War"))
-    print (Anime.get ("Attack On Titan"))
-    print (Anime.get ("Code Geass"))
-    print (Anime.get ("Oshi No Ko"))
-    print (Anime.get ("Haikyuu"))
-    print (x)
+Anime.clear()
+print (Anime)
+
+# Anime.pop("Love Is War")
+# print (Anime)
+
+# Anime.update({"Love Agency": "Aka Akasaka"})
+# print (Anime)
+
+# for key, value in Anime.items():
+    # print (f"{key}: {value}")
+
+# valeus = Anime.values()
+#for value in values:
+    # print (value)
+
+# keys = Anime.keys()
+# for key in keys:
+    # print (key)
